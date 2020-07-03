@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pawfella</string>
+    <string-array
+
+        name="dropdown_namakota">
+
+        <item>Pilih Kota</item>
+
+        <item>Bandung</item>
+
+        <item>Jakarta</item>
+
+
+    </string-array>
+    <string name="title_activity_paw_chat">pawChat</string>
+</resources>

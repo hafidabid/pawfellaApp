@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zakiyah.Pawfella.pprojekkk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/pawfella_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/pawfella_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.zakiyah.Pawfella.pawapp.splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zakiyah.Pawfella.pawapp.PendaftaranUser" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.Main3Activity" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.Main4Activity" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.Main5Activity" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.zakiyah.Pawfella.pawapp.pawcorner" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.askvet" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.vetDetail" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.message" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.changepass" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.user_detail" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.change_profile" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.aboutpage" />
+        <activity android:name="com.zakiyah.Pawfella.pawapp.pawcorner_settings"></activity>
+    </application>
+
+</manifest>
